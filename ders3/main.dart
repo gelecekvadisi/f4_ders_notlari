@@ -46,7 +46,8 @@ void main() {
     print("Merhaba Ahmet bey. Hesabınıza giriş yaptınız.");
 
     if (password.length < 14) {
-      print("Parolanız çok kısa. Güvenliğiniz için daha uzun bir parola tercih edebilirsiniz.");
+      print(
+          "Parolanız çok kısa. Güvenliğiniz için daha uzun bir parola tercih edebilirsiniz.");
     }
   } else if (!ahmetMi) {
     print("Yetkiniz yok");
