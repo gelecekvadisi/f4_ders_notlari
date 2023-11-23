@@ -62,3 +62,4 @@ void main() {
 
   print("Küçük olan sayı: $kucukSayi");
 }
+
